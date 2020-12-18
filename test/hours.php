@@ -20,3 +20,4 @@ class HoursForm extends WebTestCase {
 	
 
 }
+?>
