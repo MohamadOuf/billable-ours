@@ -4,11 +4,11 @@
 	<p><em>Pay calculator for agency billable hours</em></p>
 
 <?php
-if(isset($_POST['hours'])){
+if(isset($_POST['0'])){
 
-    $hours = (int)$_POST['hours'];
+    $hours = (int)$_POST['0'];
 
-    $rate = $_POST['rate'];
+    $rate = $_POST['0'];
     
     $pay = $hours * $rate;
     
